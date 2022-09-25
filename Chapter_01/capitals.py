@@ -57,6 +57,3 @@ states = list(US_CAPITALS_BY_STATE.keys())
 print(sorted(states))
 capitals = list(US_CAPITALS_BY_STATE.values())
 print(sorted(capitals))
-
-
-
