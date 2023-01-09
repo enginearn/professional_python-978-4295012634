@@ -2,7 +2,7 @@
 
 from sales_tax import add_sales_tax
 
-def main():
+def main() -> None:
     """Main entry point for the script."""
     total = 100
     state = 'UT'

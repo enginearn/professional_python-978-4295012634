@@ -8,7 +8,7 @@ TAX_RATES_BY_STATE = {
     'CA': 0.0825
 }
 
-def add_sales_tax(total, state):
+def add_sales_tax(total: float, state: str) -> float:
     """Add sales tax to a total."""
     tax_rate = TAX_RATES_BY_STATE[state]
     return total + total * tax_rate
